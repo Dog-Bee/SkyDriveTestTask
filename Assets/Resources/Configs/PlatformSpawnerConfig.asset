@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d1151459068bb4599555645b20335d, type: 3}
+  m_Name: PlatformSpawnerConfig
+  m_EditorClassIdentifier: 
+  wholePlatform: {fileID: 6101332751558966163, guid: f6d80780985a73c4aaa0c3ec4e57f185, type: 3}
+  platformPrefab:
+  - {fileID: 8388616247169619821, guid: 01037492b8d146740bb568b33536071b, type: 3}
+  - {fileID: 7323950742795135354, guid: aecc3067395ac0f44bca49a347108be1, type: 3}
+  - {fileID: 6101332751558966163, guid: f6d80780985a73c4aaa0c3ec4e57f185, type: 3}
+  - {fileID: 5259371343427495861, guid: c33ab705fd59f88488912e1702795938, type: 3}
+  - {fileID: 2130252017232463706, guid: e3412005c8e7219449cdcf1399205f42, type: 3}
+  initialSegments: 10
+  safeSegments: 1
+  segmentLength: 100
+  spawnDistance: 900

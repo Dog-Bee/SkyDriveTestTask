@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d9b375d3215b141a5c6e2098658458, type: 3}
+  m_Name: EnvironmentSpawnerConfig
+  m_EditorClassIdentifier: 
+  environmentPrefabs:
+  - {fileID: 182638, guid: 570f98335f07661438c9f7cbcf3cd7dc, type: 3}
+  - {fileID: 150088, guid: c36b4326e2493ef40a4bc76d4c581c1f, type: 3}
+  - {fileID: 100826, guid: 1e626be4963606d4dae866e9c4e6a91b, type: 3}
+  - {fileID: 110192, guid: a106e6757de19414b8632d200bb83605, type: 3}
+  - {fileID: 112914, guid: fba2f8407683e1f4fbb6b379ed2706c2, type: 3}
+  - {fileID: 117178, guid: 2656b6bd353c2cc479695d815f4933d2, type: 3}
+  - {fileID: 180822, guid: 582a93c7d01ff6441b8845e57a1d68b9, type: 3}
+  - {fileID: 158646, guid: 5d61431dc288f334680a9f7c26ea4556, type: 3}
+  - {fileID: 127754, guid: 8dd4762c7634bd948a9d2c366d159fcb, type: 3}
+  - {fileID: 181616, guid: 990bc51eb7c495145a46efeef92870bd, type: 3}
+  - {fileID: 130646, guid: 22a82758e12490543851605b45080dc7, type: 3}
+  - {fileID: 117568, guid: 803908dc1c2d8e74683b5390b9dcc847, type: 3}
+  - {fileID: 132870, guid: 27fe6d2a15a377f4587f716a2d37ca8a, type: 3}
+  - {fileID: 114410, guid: f6f5203ed5ea2204d95508a9c981db2f, type: 3}
+  - {fileID: 135778, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 3}
+  leftZone: {x: -200, y: -90}
+  rightZone: {x: 90, y: 200}
+  heightRange: {x: -90, y: 80}
+  forwardRange: {x: -30, y: 30}
+  maxEnvironmentPerPlatform: 3
+  minDistanceBetweenEnvironments: 15
+  attemptsFindSpot: 5

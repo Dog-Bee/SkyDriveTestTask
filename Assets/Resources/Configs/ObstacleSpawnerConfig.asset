@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef2ca9641f1b08345b02e8ff6d044fa0, type: 3}
+  m_Name: ObstacleSpawnerConfig
+  m_EditorClassIdentifier: 
+  obstaclePrefabs:
+  - {fileID: 2501120660459226734, guid: 8b9e75f1e79634040bbdf7f389eb4e00, type: 3}
+  - {fileID: 730098260200389192, guid: 7aa56b07141d73d4f966d7a16348ff4b, type: 3}
+  - {fileID: 8148890937745892414, guid: 7c7dae695904bed4ab2dc90625c1140d, type: 3}
+  - {fileID: 462688298487358023, guid: ea640bf23b9f81749b7233fdae9a8fd8, type: 3}
+  - {fileID: 3327878794148833176, guid: 9bacb6d1a61fe554fb6c9aca23b1d428, type: 3}
+  - {fileID: 5688628796360091145, guid: a4195aa4f24208f4c87a89313246e462, type: 3}
+  - {fileID: 9074233994364086101, guid: e8d373e23d314b2488cf8087f6f0da99, type: 3}
+  - {fileID: 2232551546519877040, guid: 183691639da04a1439cbacb40cdbc7ef, type: 3}
+  - {fileID: 8521320776192114434, guid: cb9ee7a83a03d5347ad75a6868598fd9, type: 3}
+  - {fileID: 689501485202738782, guid: f956681c99ed10544993716367327581, type: 3}
+  - {fileID: 1618597847152631362, guid: 3b7503c6b5c47754a8b447ad0727b8c6, type: 3}
+  - {fileID: 8176894227970875775, guid: 8aad6933ca1aa3348a6aa4f9cf3afccc, type: 3}
+  gridWidth: 3
+  spacing: 13
+  zOffsetSpacing: 20
