@@ -33,5 +33,5 @@ MonoBehaviour:
   heightRange: {x: -90, y: 80}
   forwardRange: {x: -30, y: 30}
   maxEnvironmentPerPlatform: 3
-  minDistanceBetweenEnvironments: 15
+  minDistanceBetweenEnvironments: 50
   attemptsFindSpot: 5
